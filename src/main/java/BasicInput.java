@@ -19,7 +19,7 @@ public class BasicInput {
         System.out.println("Enter string:");
         userString= scnr.next();
         System.out.println("" + userInt + userDouble + userChar + userString);
-        System.out.println(userString + userChar +  + userDouble + userInt);
+        System.out.println(userString + userChar + "" + userDouble + userInt);
 
         System.out.println(userDouble +" cast to an integer is" + (int)userDouble);
 
